@@ -1,0 +1,293 @@
+* {
+    padding:0;
+    margin:0;
+    -webkit-box-sizing:border-box;
+    -O-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    font-family: 'Cairo', sans-serif;    
+    outline:none;
+}
+
+/* Start Navbar */
+nav {
+    box-shadow:0 0 5px 0.5px #CCC;
+    padding-bottom:15px;
+    overflow:visible;
+}
+
+nav .img {
+    float:right;
+    direction:rtl;
+}
+
+
+
+nav .links .slide-links ul:lasts-of-type img  { 
+    border-radius:50%;
+    border:1px solid #000;
+}
+
+.navigation  li {
+    list-style:none;
+} 
+
+.navigation > li {
+    float:left;
+    margin-top:25px;
+}
+
+.navigation li a {
+    text-decoration:none;
+    color:#000;
+}
+
+.navig1 .drop1,
+.navig2 .drop2,
+.navig3 .drop3 {
+    display:none;
+}
+
+
+
+.navig1 .drop1 li,
+.navig2 .drop2 li,
+.navig3 .drop3 li {
+    background-color:#F00;
+    color:#FFF;
+    text-align:center;
+    padding:3px;
+    margin-top:5px;
+}
+
+.navig1 .drop1 li a,
+.navig2 .drop2 li a,
+.navig3 .drop3 li a {
+    color:#FFF;
+    display:block;
+    width:100%;
+    padding:5px 0;
+}
+
+.navig3 .drop3 li a {
+    padding:5px 0;
+}
+
+.navig1 .drop1 li:hover,
+.navig2 .drop2 li:hover,
+.navig3 .drop3 li:hover {
+    background-color:#000;
+    color:#FFF;
+}
+
+.bars i {
+    cursor:pointer;
+    font-size:25px;
+    padding:5px 10px;
+    border-radius:5px;
+    margin-top:15px;
+    border:1px solid rgba(51, 51, 51, 0.32);
+}
+
+
+.sm-nav {
+    margin-top:30px;
+    display:none;
+}
+
+.sm-nav .navigation .drop1 {
+    padding:10px;
+}
+
+.sm-nav .navig1 {
+    padding:10px 0;
+}
+
+.sm-nav .navig3 {
+    margin-top:50px;
+    padding:10px 0;
+
+}
+
+.sm-nav .navig2 {
+    margin-top:50px;
+    padding:10px 0;
+}
+
+
+.sm-nav .navigation .drop1:hover {
+    background-color:#F00;
+    color:#FFF;
+}
+
+
+.sm-nav > li:hover {
+    background-color:#F00;
+}
+
+/* End navbar */
+
+
+
+
+/* Start Slider */
+.slider {
+    width:85%;
+    margin:15px auto;
+    text-align:center;
+    box-shadow:0 0 5px 0.5px #333;
+}
+
+
+/* End Slider */
+
+
+.arabic-special {
+    direction:rtl;
+    width:95%;
+    margin:25px auto;
+}
+
+.arabic-special h2 {
+    color:#ea5644;
+    font-weight: bold;
+    margin-right:5px;
+}
+
+@media (max-width:480px) {
+    .arabic-special h2 {
+        font-size:20px;
+    }
+}
+
+.arabic-special .content {
+    width:100%;
+    border:1px solid #CCC;
+    border-right:3px solid #ea5644;
+}
+
+.arabic-special .content p {
+    font-weight: bold;
+    margin-right:5px;
+}
+
+
+
+
+.english-special {
+    direction:ltr;
+    width:95%;
+    margin:25px auto;
+}
+
+.english-special h2 {
+    color:#ea5644;
+    font-weight: bold;
+    margin-left:5px;
+}
+
+@media (max-width:480px) {
+    .english-special h2 {
+        font-size:20px;
+    }
+}
+
+.english-special .content {
+    width:100%;
+    border:1px solid #CCC;
+    border-left:3px solid #ea5644;
+}
+
+.english-special .content p {
+    font-weight: bold;
+    margin-left:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Start Contact us */
+.contact {
+    background-color:rgb(12, 26, 30);
+    color:#FFF;
+}
+
+.contact section {
+    margin-bottom:20px;
+}
+
+.contact section h3 {
+    border-left:5px solid #ea5644;
+    padding-left:10px;
+}
+
+
+.contact section:first-of-type p
+{
+    color:#8F8F8F;
+}
+
+
+.contact section:nth-of-type(2) a {
+    color:#8F8F8F;
+    text-decoration: none;
+}
+
+.contact section:nth-of-type(2) a:hover {
+    color:#ea5644;
+    text-decoration: underline;
+}
+
+
+.contact section:last-of-type p:nth-of-type(2) span,
+.contact section:last-of-type p:nth-of-type(3) span,
+.contact section:last-of-type p:last-of-type 
+{
+    color:#8F8F8F;
+}
+
+.contact section:last-of-type p:nth-of-type(4) {
+    color:#0099cc;
+}  
+
+.contact section:last-of-type a {
+    color:#FFF;
+    text-decoration:none;
+    margin:10px 0 0 10px;
+    transition: all .3s linear;
+}
+
+.contact section:last-of-type a:hover {
+    color:#6D6D6D;
+}
+/* End Contact us */
+
+
+
+
+/* Start Footer */
+footer {
+    background-color:#222;
+    overflow:hidden;
+}
+
+footer p {
+    color:#8F8F8F;
+    font-weight: bold;
+    text-align:center;
+    margin-top:10px;
+}
+
+footer p a {
+    color:#8F8F8F;
+}
+
+
+/* End Footer */
